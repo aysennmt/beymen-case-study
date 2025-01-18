@@ -11,10 +11,10 @@ import Alamofire
 struct ApiEndpointContainer {
     static let baseURL = "https://www.beymen.com"
     
-    static func productListEndpoint(page: Int) -> Endpoint<EmptyRequest, ProductListResponseModel> {
+    static func productListEndpoint(page: Int, categoryId: Int) -> Endpoint<EmptyRequest, ProductListResponseModel> {
         Endpoint(
             baseURL: baseURL,
-            path: "/Mobile2/api/mbproduct/list?siralama=akillisiralama&categoryId=10020&includeDocuments=true&sayfa=\(page)",
+            path: "/Mobile2/api/mbproduct/list?siralama=akillisiralama&categoryId=\(categoryId)&includeDocuments=true&sayfa=\(page)",
             method: .get,
             encoding: URLEncoding.default
         )

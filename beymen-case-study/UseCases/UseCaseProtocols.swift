@@ -7,8 +7,12 @@
 
 import Foundation
 
+typealias UseCaseResult<UIModel> = Result<UIModel, ErrorUIModel>
+typealias UseCaseCompletion<UIModel> = (UseCaseResult<UIModel>) -> Void
+
 protocol UseCaseProtocol {
-    associatedtype Parameters
-    associatedtype Response
-    func request(parameters: Parameters, completion: @escaping (Result<Response, Error>) -> Void)
+    associatedtype Params
+    associatedtype UIModel
+    
+    func request(parameters: Params, completion: @escaping UseCaseCompletion<UIModel>)
 }

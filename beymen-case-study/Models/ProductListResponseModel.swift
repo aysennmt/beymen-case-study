@@ -9,23 +9,12 @@ import Foundation
 
 // MARK: - ProductListResponseModel
 struct ProductListResponseModel: Decodable {
-    let products: [Product]
+    let success: Bool
+    let message: String?
+    let result: ProductListResult
 }
 
-// MARK: - Product
-struct Product: Decodable {
-    let id: Int
-    let name: String
-    let price: Double
-    let imageUrl: String
-}
-
-// MARK: - Product Detail
-struct ProductDetailResponseModel: Decodable {
-    let id: Int
-    let name: String
-    let description: String
-    let price: Double
-    let imageUrl: String
+struct ProductListResult: Decodable {
+    let productList: [ProductDetailResponseModel]
 }
 
