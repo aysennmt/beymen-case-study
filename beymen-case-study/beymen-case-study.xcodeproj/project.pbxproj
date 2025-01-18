@@ -16,6 +16,18 @@
 		03FBBC152D3B056E009AD7B4 /* beymen_case_studyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC142D3B056E009AD7B4 /* beymen_case_studyTests.swift */; };
 		03FBBC1F2D3B056E009AD7B4 /* beymen_case_studyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC1E2D3B056E009AD7B4 /* beymen_case_studyUITests.swift */; };
 		03FBBC212D3B056E009AD7B4 /* beymen_case_studyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC202D3B056E009AD7B4 /* beymen_case_studyUITestsLaunchTests.swift */; };
+		03FBBC312D3BADBF009AD7B4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC302D3BADBF009AD7B4 /* NetworkManager.swift */; };
+		03FBBC342D3BAE1D009AD7B4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 03FBBC332D3BAE1D009AD7B4 /* Alamofire */; };
+		03FBBC362D3BAE53009AD7B4 /* ApiEndpointContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC352D3BAE53009AD7B4 /* ApiEndpointContainer.swift */; };
+		03FBBC382D3BAE96009AD7B4 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC372D3BAE96009AD7B4 /* ApiPath.swift */; };
+		03FBBC3A2D3BAF42009AD7B4 /* Endpoint+RequestDescriptorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC392D3BAF42009AD7B4 /* Endpoint+RequestDescriptorConvertable.swift */; };
+		03FBBC3C2D3BAF61009AD7B4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC3B2D3BAF61009AD7B4 /* Endpoint.swift */; };
+		03FBBC3E2D3BAF9E009AD7B4 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC3D2D3BAF9E009AD7B4 /* RequestModel.swift */; };
+		03FBBC412D3BB00F009AD7B4 /* UseCaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC402D3BB00F009AD7B4 /* UseCaseProtocols.swift */; };
+		03FBBC442D3BB03A009AD7B4 /* ProductListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC432D3BB03A009AD7B4 /* ProductListUseCase.swift */; };
+		03FBBC462D3BB06C009AD7B4 /* ProductListResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC452D3BB06C009AD7B4 /* ProductListResponseModel.swift */; };
+		03FBBC482D3BB0F2009AD7B4 /* RequestDescriptorConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC472D3BB0F2009AD7B4 /* RequestDescriptorConvertable.swift */; };
+		03FBBC4A2D3BB2EF009AD7B4 /* RequestDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBBC492D3BB2EF009AD7B4 /* RequestDescriptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,17 @@
 		03FBBC1A2D3B056E009AD7B4 /* beymen-case-studyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "beymen-case-studyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FBBC1E2D3B056E009AD7B4 /* beymen_case_studyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beymen_case_studyUITests.swift; sourceTree = "<group>"; };
 		03FBBC202D3B056E009AD7B4 /* beymen_case_studyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beymen_case_studyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03FBBC302D3BADBF009AD7B4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		03FBBC352D3BAE53009AD7B4 /* ApiEndpointContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpointContainer.swift; sourceTree = "<group>"; };
+		03FBBC372D3BAE96009AD7B4 /* ApiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
+		03FBBC392D3BAF42009AD7B4 /* Endpoint+RequestDescriptorConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+RequestDescriptorConvertable.swift"; sourceTree = "<group>"; };
+		03FBBC3B2D3BAF61009AD7B4 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		03FBBC3D2D3BAF9E009AD7B4 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		03FBBC402D3BB00F009AD7B4 /* UseCaseProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseProtocols.swift; sourceTree = "<group>"; };
+		03FBBC432D3BB03A009AD7B4 /* ProductListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListUseCase.swift; sourceTree = "<group>"; };
+		03FBBC452D3BB06C009AD7B4 /* ProductListResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListResponseModel.swift; sourceTree = "<group>"; };
+		03FBBC472D3BB0F2009AD7B4 /* RequestDescriptorConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDescriptorConvertable.swift; sourceTree = "<group>"; };
+		03FBBC492D3BB2EF009AD7B4 /* RequestDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDescriptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FBBC342D3BAE1D009AD7B4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +103,9 @@
 		03FBBBF12D3B056D009AD7B4 = {
 			isa = PBXGroup;
 			children = (
+				03FBBC2D2D3BAD8A009AD7B4 /* Network */,
+				03FBBC422D3BB02E009AD7B4 /* UseCases */,
+				03FBBC3F2D3BAFBC009AD7B4 /* Models */,
 				03FBBBFC2D3B056D009AD7B4 /* beymen-case-study */,
 				03FBBC132D3B056E009AD7B4 /* beymen-case-studyTests */,
 				03FBBC1D2D3B056E009AD7B4 /* beymen-case-studyUITests */,
@@ -127,6 +154,78 @@
 			path = "beymen-case-studyUITests";
 			sourceTree = "<group>";
 		};
+		03FBBC2D2D3BAD8A009AD7B4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC302D3BADBF009AD7B4 /* NetworkManager.swift */,
+				03FBBC4D2D3BB952009AD7B4 /* NetworkLayer */,
+				03FBBC4E2D3BB9BB009AD7B4 /* RequestDescriptor */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		03FBBC3F2D3BAFBC009AD7B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC3D2D3BAF9E009AD7B4 /* RequestModel.swift */,
+				03FBBC452D3BB06C009AD7B4 /* ProductListResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03FBBC422D3BB02E009AD7B4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC402D3BB00F009AD7B4 /* UseCaseProtocols.swift */,
+				03FBBC432D3BB03A009AD7B4 /* ProductListUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		03FBBC4C2D3BB918009AD7B4 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC352D3BAE53009AD7B4 /* ApiEndpointContainer.swift */,
+				03FBBC372D3BAE96009AD7B4 /* ApiPath.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		03FBBC4D2D3BB952009AD7B4 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC4C2D3BB918009AD7B4 /* Api */,
+				03FBBC502D3BBA0E009AD7B4 /* Endpoint */,
+				03FBBC4F2D3BB9F2009AD7B4 /* Protocols */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		03FBBC4E2D3BB9BB009AD7B4 /* RequestDescriptor */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC492D3BB2EF009AD7B4 /* RequestDescriptor.swift */,
+			);
+			path = RequestDescriptor;
+			sourceTree = "<group>";
+		};
+		03FBBC4F2D3BB9F2009AD7B4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC472D3BB0F2009AD7B4 /* RequestDescriptorConvertable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		03FBBC502D3BBA0E009AD7B4 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				03FBBC3B2D3BAF61009AD7B4 /* Endpoint.swift */,
+				03FBBC392D3BAF42009AD7B4 /* Endpoint+RequestDescriptorConvertable.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +242,9 @@
 			dependencies = (
 			);
 			name = "beymen-case-study";
+			packageProductDependencies = (
+				03FBBC332D3BAE1D009AD7B4 /* Alamofire */,
+			);
 			productName = "beymen-case-study";
 			productReference = 03FBBBFA2D3B056D009AD7B4 /* beymen-case-study.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +317,9 @@
 				Base,
 			);
 			mainGroup = 03FBBBF12D3B056D009AD7B4;
+			packageReferences = (
+				03FBBC322D3BAE1D009AD7B4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 03FBBBFB2D3B056D009AD7B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FBBC4A2D3BB2EF009AD7B4 /* RequestDescriptor.swift in Sources */,
 				03FBBC022D3B056D009AD7B4 /* ViewController.swift in Sources */,
+				03FBBC442D3BB03A009AD7B4 /* ProductListUseCase.swift in Sources */,
+				03FBBC462D3BB06C009AD7B4 /* ProductListResponseModel.swift in Sources */,
+				03FBBC3A2D3BAF42009AD7B4 /* Endpoint+RequestDescriptorConvertable.swift in Sources */,
+				03FBBC3C2D3BAF61009AD7B4 /* Endpoint.swift in Sources */,
+				03FBBC362D3BAE53009AD7B4 /* ApiEndpointContainer.swift in Sources */,
 				03FBBBFE2D3B056D009AD7B4 /* AppDelegate.swift in Sources */,
+				03FBBC3E2D3BAF9E009AD7B4 /* RequestModel.swift in Sources */,
+				03FBBC382D3BAE96009AD7B4 /* ApiPath.swift in Sources */,
+				03FBBC412D3BB00F009AD7B4 /* UseCaseProtocols.swift in Sources */,
+				03FBBC312D3BADBF009AD7B4 /* NetworkManager.swift in Sources */,
+				03FBBC482D3BB0F2009AD7B4 /* RequestDescriptorConvertable.swift in Sources */,
 				03FBBC002D3B056D009AD7B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +717,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03FBBC322D3BAE1D009AD7B4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03FBBC332D3BAE1D009AD7B4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03FBBC322D3BAE1D009AD7B4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03FBBBF22D3B056D009AD7B4 /* Project object */;
 }
